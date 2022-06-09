@@ -293,7 +293,7 @@ class Swiper extends StatefulWidget {
 }
 
 abstract class _SwiperTimerMixin extends State<Swiper> {
-  late Timer? _timer;
+  Timer? _timer;
 
   late SwiperController _controller;
 

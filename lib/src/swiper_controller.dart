@@ -25,7 +25,7 @@ class SwiperController extends IndexController {
   @override
   int? index;
   @override
-  late bool animation;
+  // late bool animation;
   bool? autoplay;
 
   SwiperController();
